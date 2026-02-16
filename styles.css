@@ -112,6 +112,25 @@ p {
   margin-top: 14px;
 }
 
+.job-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  color: #1a1a1a;
+}
+
+.job-title a {
+  color: #e78678;
+  font-weight: 600;
+  transition: opacity 0.15s ease;
+}
+
+.job-title a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .about-text p {
   max-width: 460px;
   margin-bottom: 22px;
@@ -167,6 +186,23 @@ p {
 
 .footer-col a:hover {
   text-decoration: underline;
+}
+
+.scholar-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: #1a1a1a;
+  transition: all 0.2s ease;
+}
+
+.scholar-link:hover {
+  color: #e78678;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.scholar-link svg {
+  display: block;
 }
 
 /* MOBILE */
